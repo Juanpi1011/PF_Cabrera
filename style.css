@@ -10,22 +10,17 @@ header {
 	font-size: 20px;
 	text-align: center;
   text-shadow: 3px 5px 5px rgba(203, 204, 150, 0.795);
-  
 }
-
-
 
 .navul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  
 }
 
 .navli {
   float: left;
-  
 }
 
 nav li a {
@@ -77,7 +72,6 @@ footer {
 
 .titulo{
   text-align: center;
-
 }
 
 .prodli{
@@ -86,10 +80,12 @@ footer {
 }
 
 .prodlist{
-  padding: 10px;
-  background-image: url(fotos/Alfajores2.png);
-  height: 100px;
-  max-width: 100%;
+  color: #fff;
+  float: left ;
+  margin: 20px;
+  padding: 30px;
+  height: 50%;
+  max-width: 50%;
   border-radius: 5px;
   background-size: 800% 50%;
   background-size: cover;
@@ -97,10 +93,35 @@ footer {
 }
 
 .prodli :hover {
-  color: beige; 
-  border-color: black;
-  border-radius: 3px;
+  color: rgb(120, 121, 78); 
 }
+#cafe{
+  background-image: url(fotos/Cafe2.png);
+}
+#alfajores{
+  background-image: url(fotos/Alfajores1.png);
+}
+#tortas{
+  background-image: url(fotos/Torta2.png);
+}
+#especiales{
+  background-image: url(fotos/tuki1.jpeg);
+}
+
+#DDL{
+  background-image: url(fotos/DDL.png);
+}
+#salted{
+  background-image: url(fotos/salted.png);
+}
+#cheese{
+  background-image: url(fotos/chess\ cake.png);
+}
+#moca{
+  background-image: url(fotos/Mocaccino.png);
+}
+
+
 
 .nosotros{
   margin-left: 15px;
@@ -121,7 +142,6 @@ img {
 .Parrafo{
   padding-top: 10px;
 }
-
 
 form {
   display: flex;
@@ -162,7 +182,6 @@ form input[type="submit"]:hover {
   background-color: #555;
 }
 
-
 .navbar {
   border: solid 1.5px black;
   border-radius: 5px;
@@ -185,9 +204,7 @@ form input[type="submit"]:hover {
   border-radius: 3px;
 }
 
-
 .navbar.navbar-expand-lg.navbar-light.bg-light{
-
   background-color: #333;
 }
 
