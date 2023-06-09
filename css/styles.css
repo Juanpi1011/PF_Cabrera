@@ -1,0 +1,214 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: beige;
+  padding: 0;
+}
+
+header {
+  padding-top: 20px;
+  background-color: beige;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 3px 5px 5px rgba(203, 204, 150, 0.795);
+}
+
+.navul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navli {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #635402;
+  text-align: center;
+  margin: 4px;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: whitesmoke;
+  border-color: black;
+  border-radius: 3px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 1rem;
+  border-radius: 3px;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.prodli {
+  list-style-type: none;
+  min-width: 300px;
+}
+
+.prodlist {
+  color: #fff;
+  float: left;
+  margin: 20px;
+  padding: 30px;
+  height: 50%;
+  max-width: 50%;
+  border-radius: 5px;
+  background-size: 800% 50%;
+  background-size: cover;
+  border: solid 1.5px black;
+}
+
+.prodli :hover {
+  color: rgb(120, 121, 78);
+}
+
+#cafe {
+  background-image: url(C:/Users/amnau/Desktop/Desk/tp4/tp2/fotos/Cafe2.png);
+}
+
+#alfajores {
+  background-image: url(fotos/Alfajores1.png);
+}
+
+#tortas {
+  background-image: url(fotos/Torta2.png);
+}
+
+#especiales {
+  background-image: url(fotos/tuki1.jpeg);
+}
+
+#DDL {
+  background-image: url(fotos/DDL.png);
+}
+
+#salted {
+  background-image: url(fotos/salted.png);
+}
+
+#cheese {
+  background-image: url(fotos/chess\ cake.png);
+}
+
+#moca {
+  background-image: url(fotos/Mocaccino.png);
+}
+
+.nosotros {
+  margin-left: 15px;
+}
+
+div {
+  text-align: left;
+}
+
+img {
+  float: right;
+  margin: 20px;
+  border-radius: 3px;
+}
+
+.Parrafo {
+  padding-top: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+form input[type=text],
+form input[type=email],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+form textarea {
+  height: 120px;
+}
+
+form input[type=submit] {
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form input[type=submit]:hover {
+  background-color: #555;
+}
+
+.navbar {
+  border: solid 1.5px black;
+  border-radius: 5px;
+}
+
+.navbar-brand {
+  margin-right: 20px;
+}
+
+.navbar-nav .nav-link {
+  color: #635402;
+  margin: 4px;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+  color: whitesmoke;
+  border-color: black;
+  border-radius: 3px;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background-color: #333;
+}
+
+/*# sourceMappingURL=styles.css.map */
