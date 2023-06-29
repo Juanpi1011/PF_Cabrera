@@ -212,3 +212,35 @@ form input[type=submit]:hover {
 }
 
 /*# sourceMappingURL=styles.css.map */
+
+
+.bg-image-banner {
+  background-image: url(../fotos/banner.webp);
+  background-color: #16b6d2;
+  background-position: center;
+  background-size: cover;
+
+    .heading-decoration-1{
+      color: white; 
+      font-size: 3.5rem;     
+      text-align: center;
+      padding-top: 7rem;
+      padding-bottom: 7rem;
+    }
+
+}
+
+
+
+@media (max-width: 575.98px) {
+
+}
+
+
+
+@media (max-width: 575.98px) {
+  .bg-image-banner{
+    font: 5rem;
+  }
+
+}
